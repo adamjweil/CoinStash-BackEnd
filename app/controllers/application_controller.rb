@@ -1,6 +1,7 @@
 class ApplicationController < ActionController::API
   before_action :load_tweets
   before_action :search_tweets
+  require 'coinbase/wallet'
 
   def log_in(user)
     session[:user_id] = user.id

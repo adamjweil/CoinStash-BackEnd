@@ -10,11 +10,11 @@ class CoinbasesController < ActionController::API
   def accounts
     # client
     # render json: @client.accounts
-    render json: 
-      [{"id":"36728bs-248e-58f9-b693-d18b84c57375","name":"LTC Wallet","primary":false,"type":"wallet","currency":"LTC","balance":{"amount":"777.8273464","currency":"LTC"},"created_at":"2017-03-31T04:59:24Z","updated_at":"2017-03-31T04:59:25Z","resource":"account","resource_path":"/v2/accounts/36728bs-248e-58f9-b693-d18b84c57375","native_balance":{"amount":"45,814.01","currency":"USD"}},
-      {"id":"dd4333e9-f473-50bf-9bac-54f324990457","name":"ETH Wallet","primary":false,"type":"wallet","currency":"ETH","balance":{"amount":"223.7463384","currency":"ETH"},"created_at":"2016-08-12T08:56:29Z","updated_at":"2016-09-16T17:00:31Z","resource":"account","resource_path":"/v2/accounts/dd4333e9-f473-50bf-9bac-54f324990457","native_balance":{"amount":"72,211.45","currency":"USD"}},
+    render json:
+      [{"id":"36728bs-248e-58f9-b693-d18b84c57375","name":"LiteCoin Wallet","primary":false,"type":"wallet","currency":"LTC","balance":{"amount":"777.8273464","currency":"LTC"},"created_at":"2017-03-31T04:59:24Z","updated_at":"2017-03-31T04:59:25Z","resource":"account","resource_path":"/v2/accounts/36728bs-248e-58f9-b693-d18b84c57375","native_balance":{"amount":"45,814.01","currency":"USD"}},
+      {"id":"dd4333e9-f473-50bf-9bac-54f324990457","name":"Ethereum Wallet","primary":false,"type":"wallet","currency":"ETH","balance":{"amount":"223.7463384","currency":"ETH"},"created_at":"2016-08-12T08:56:29Z","updated_at":"2016-09-16T17:00:31Z","resource":"account","resource_path":"/v2/accounts/dd4333e9-f473-50bf-9bac-54f324990457","native_balance":{"amount":"72,211.45","currency":"USD"}},
       {"id":"cfgd5a004-8431-5a03-a428-6cdc61df4298","name":"USD Wallet","primary":false,"type":"fiat","currency":"USD","balance":{"amount":"722,322.22","currency":"USD"},"created_at":"2015-12-26T19:44:25Z","updated_at":"2017-10-10T15:26:36Z","resource":"account","resource_path":"/v2/accounts/cfgd5a004-8431-5a03-a428-6cdc61df4298","native_balance":{"amount":"722,322.22","currency":"USD"}},
-      {"id":"d81d3213-287e-5b97-ba47-7d88033ab808","name":"BTC Wallet","primary":true,"type":"wallet","currency":"BTC","balance":{"amount":"34.2212334","currency":"BTC"},"created_at":"2015-11-27T07:52:00Z","updated_at":"2017-10-10T16:17:42Z","resource":"account","resource_path":"/v2/accounts/d81d3213-287e-5b97-ba47-7d88033ab808","native_balance":{"amount":"192,933.84","currency":"USD"}}]
+      {"id":"d81d3213-287e-5b97-ba47-7d88033ab808","name":"BitCoin Wallet","primary":true,"type":"wallet","currency":"BTC","balance":{"amount":"34.2212334","currency":"BTC"},"created_at":"2015-11-27T07:52:00Z","updated_at":"2017-10-10T16:17:42Z","resource":"account","resource_path":"/v2/accounts/d81d3213-287e-5b97-ba47-7d88033ab808","native_balance":{"amount":"192,933.84","currency":"USD"}}]
   end
 
   def usd_wallet
